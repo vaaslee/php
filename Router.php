@@ -1,5 +1,4 @@
 <?php
-if (!ACCESS_CHECK) { die('ACCESS ERROR');}
 class Router {
 	public static function routerStart($URL) {
 		if (!empty($URL[1])) {
